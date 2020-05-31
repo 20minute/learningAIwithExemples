@@ -159,6 +159,9 @@ void Vehicle::Render()
 	  case chaser:
 		  gdi->BluePen();
 		  break;
+	  case chaserHumain:
+		  gdi->OrangePen();
+		  break;
 	  case unknown:
 		  gdi->BlackPen();
 		  break;
