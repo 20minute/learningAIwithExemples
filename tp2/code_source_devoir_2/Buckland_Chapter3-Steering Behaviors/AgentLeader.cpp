@@ -27,14 +27,10 @@ AgentLeader::AgentLeader(GameWorld * world,
 	Vehicle::Steering()->WanderOn();
 	Vehicle::SetMaxSpeed(70);
 
-
-
 }
 
 AgentLeader::~AgentLeader()
 {
-	//delete Vehicle::Steering();
-	//delete Vehicle::HeadingSmoother();
 }
 
 void AgentLeader::Update(double time_elapsed)

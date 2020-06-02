@@ -83,8 +83,6 @@ AgentChaser::AgentChaser(GameWorld * world,
 
 AgentChaser::~AgentChaser()
 {
-	//delete Vehicle::Steering();
-	//delete Vehicle::HeadingSmoother();
 }
 
 void AgentChaser::Update(double time_elapsed)
